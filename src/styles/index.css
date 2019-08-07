@@ -6,13 +6,21 @@ html,
 body,
 #root,
 .layout {
-	width: 100%;
-	height: 100%;
-	@apply font-serif;
+	@apply w-full min-h-screen font-serif;
 }
 
-.layout {
-	background-image: url("./img/ss035.gif");
+html {
+	background-image: url("./img/space.gif");
+}
+
+.news-header {
+	box-shadow: 0 2px 3px #fff, 0 -2px 2px #666,
+		inset 0 -2px 2px rgba(0, 0, 0, 0.5),
+		inset 0 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+.glow {
+	box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.8);
 }
 
 blink,

@@ -11,7 +11,7 @@ const BouncingText = ({ children, ...rest }) => {
 						className={"bounce-me"}
 						style={{
 							display: "inline-block",
-							animationDelay: `${index * 100}ms`
+							animationDelay: `${index * 80}ms`
 						}}
 					>
 						{letter === " " ? <span>&nbsp;</span> : letter}

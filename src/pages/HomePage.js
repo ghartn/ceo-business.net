@@ -1,12 +1,15 @@
 import React from "react";
 import genie from "../img/genie.gif";
-import world1 from "../img/world1.gif";
+import world from "../img/world.gif";
 import BouncingText from "../components/BouncingText";
 import businessMan from "../img/business-man-running.gif";
+import plane from "../img/plane.gif";
+import flymoney from "../img/flymoney.gif";
+import coins from "../img/coins.gif";
 
 const HomePage = () => {
 	return (
-		<div className="pt-8">
+		<div className="pt-12">
 			<h1 className="text-5xl text-white blink text-center">
 				Welcome To The Home Page of CEO @ Business Dot Net!
 			</h1>
@@ -17,13 +20,13 @@ const HomePage = () => {
 					This Page Is The Home Of All News Business! Subscribe To Our
 					Newsletter For Constant Emails So You Never Miss A Thing!
 				</p>
-				<img src={world1} alt="world" />
+				<img src={world} alt="world" />
 			</div>
 
 			<BouncingText className="mt-6 text-3xl text-red-pure text-center">
-				Incentivize Unpaid Overtime
+				CEO@BUSINESS.NET
 			</BouncingText>
-			<div className="mt-8 flex justify-center">
+			<div className="mt-6 flex justify-center">
 				<img
 					src={businessMan}
 					alt="business-man-running"
@@ -80,6 +83,63 @@ const HomePage = () => {
 					className="h-24 mr-2"
 				/>
 				<img src={businessMan} alt="business-man-running" className="h-24" />
+			</div>
+			<BouncingText className="mt-6 text-3xl text-blue-pure text-center">
+				Incentivize Unpaid Overtime
+			</BouncingText>
+			<div className="mt-20">
+				<div className="flex flex-col border glow">
+					<div className="bg-red-pure py-2 px-3">
+						<marquee
+							behavior="bounce"
+							direction="right"
+							className="block h-full"
+						>
+							<h2 className="font-bold text-white text-2xl">News!</h2>
+						</marquee>
+					</div>
+					<div className="flex flex-col lg:flex-row bg-gray-300">
+						<div className="m-4 flex flex-col flex-1 bg-gray-200">
+							<div className="flex items-center h-16 p-2 news-header bg-gray-400 border-gray-600 border-l border-r">
+								<h3 className="font-bold">Company Jet Has Doubled In Size</h3>
+							</div>
+							<div className="p-4 flex flex-1 justify-between items-center border border-gray-600 border-t-0">
+								<p className="w-4/5">
+									Our business is booming and profits are skyrocketing, thanks
+									to your hard work! Keep it up!
+								</p>
+								<img src={plane} alt="plane" className="h-16" />
+							</div>
+						</div>
+						<div className="m-4 flex flex-col flex-1 bg-gray-200">
+							<div className="flex items-center h-16 p-2 news-header bg-gray-400 border-gray-600 border-l border-r">
+								<h3 className="font-bold">
+									Foreign Associates Have Aggressively Agreed Upon Expansion
+								</h3>
+							</div>
+							<div className="p-4 flex flex-1 justify-between items-center border border-gray-600 border-t-0">
+								<p className="w-4/5">
+									Our business partners have agreed to outsource our labour
+									saving us millions! Free trade allows us to aggressively cut
+									costs! It is a huge win!
+								</p>
+								<img src={flymoney} alt="flymoney" className="h-16" />
+							</div>
+						</div>
+						<div className="m-4 flex flex-col flex-1 bg-gray-200">
+							<div className="flex items-center h-16 p-2 news-header bg-gray-400 border-gray-600 border-l border-r">
+								<h3 className="font-bold">Business Is Booming! BOOM</h3>
+							</div>
+							<div className="p-4 flex flex-1 justify-between items-center border border-gray-600 border-t-0">
+								<p className="w-4/5">
+									BOOM BOOM BOOM BOOM BOOM BOOM BOOM BOOM BOOM BOOM BOOM BOOM
+									BOOM!
+								</p>
+								<img src={coins} alt="coins" className="h-16" />
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
