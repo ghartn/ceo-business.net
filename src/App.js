@@ -15,14 +15,14 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router>
 			<Switch>
 				<DefaultLayout path="/" exact component={HomePage} />
-				<DefaultLayout path="/music" exact component={MusicPage} />
-				<DefaultLayout path="/about" exact component={AboutPage} />
-				<DefaultLayout path="/tour" exact component={TourPage} />
-				<DefaultLayout path="/links" exact component={LinksPage} />
-				<DefaultLayout path="/contact" exact component={ContactPage} />
+				<DefaultLayout path="/music" component={MusicPage} />
+				<DefaultLayout path="/about" component={AboutPage} />
+				<DefaultLayout path="/tour" component={TourPage} />
+				<DefaultLayout path="/links" component={LinksPage} />
+				<DefaultLayout path="/contact" component={ContactPage} />
 				<DefaultLayout component={NotFoundPage} />
 			</Switch>
 		</Router>
