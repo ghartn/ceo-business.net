@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1421f5a59960c323a55da952d457f8ca",
+    "revision": "801a6dbb46f43461adacc4d47605d43f",
     "url": "/ceo-business.net/index.html"
   },
   {
-    "revision": "63cea66d7e99ad01eadc",
-    "url": "/ceo-business.net/static/css/main.487553d0.chunk.css"
+    "revision": "52ed121e7fb20036e3c9",
+    "url": "/ceo-business.net/static/css/main.3d29306f.chunk.css"
   },
   {
-    "revision": "c19df70d3df935cd41c5",
-    "url": "/ceo-business.net/static/js/2.eaea13fe.chunk.js"
+    "revision": "cf33235a33118cb094fd",
+    "url": "/ceo-business.net/static/js/2.dc1ab3b2.chunk.js"
   },
   {
-    "revision": "63cea66d7e99ad01eadc",
-    "url": "/ceo-business.net/static/js/main.1f1f5b15.chunk.js"
+    "revision": "52ed121e7fb20036e3c9",
+    "url": "/ceo-business.net/static/js/main.2def874d.chunk.js"
   },
   {
     "revision": "ccfe83878341a8dac715",
