@@ -5,7 +5,7 @@ import flamingLine from "../img/flamingline.gif";
 const TopNavigation = ({ path }) => {
 	return (
 		<div className="pt-6">
-			<div className="flex justify-center items-baseline">
+			<div className="flex justify-center items-center flex-wrap">
 				<Link
 					to="/"
 					className={`mx-2 p-1 relative border border-transparent text-xl bg-red-pure text-white underline hover:border-white ${

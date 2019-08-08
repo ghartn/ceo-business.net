@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/logo.png";
 import genie from "../img/genie.gif";
 import world from "../img/world.gif";
 import clickHere from "../img/click-here.gif";
@@ -14,13 +15,14 @@ const HomePage = () => {
 	return (
 		<div className="pt-16">
 			<h1 className="text-5xl text-white blink text-center">
-				Welcome To The Home Page of CEO @ Business Dot Net!
+				Welcome To The Home Page of
+				<img src={logo} alt="logo" className="inline h-12 sm:h-16 ml-2" />
 			</h1>
 
 			<div className="pt-12 flex items-center">
-				<img src={genie} alt="genie" className="w-32" />
+				<img src={genie} alt="genie" className="w-16 md:w-32" />
 				<div className="flex flex-col flex-1 items-center">
-					<p className="pr-6 text-lg text-yellow-pure">
+					<p className="pr-6 text-lg text-yellow-pure text-center">
 						This Page Is The Home Of All News Business! Subscribe To Our
 						Newsletter For Constant Emails So You Never Miss A Thing!
 					</p>
@@ -39,15 +41,15 @@ const HomePage = () => {
 								style={{ transform: "rotate(270deg) scaleX(-1)", left: "100%" }}
 							/>
 							<Link to="/" className="block">
-								<img src={clickHere} alt="click here" className="h-16" />
+								<img src={clickHere} alt="click here" className="w-32" />
 							</Link>
 						</div>
 					</div>
 				</div>
-				<img src={world} alt="world" className="w-32" />
+				<img src={world} alt="world" className="w-16 md:w-32" />
 			</div>
 			<div className="pt-16">
-				<BouncingText className="text-3xl text-red-pure text-center">
+				<BouncingText className="text-3xl text-red-pure text-center text-glow">
 					CEO@BUSINESS.NET
 				</BouncingText>
 				<div className="mt-6 flex justify-center">
@@ -108,11 +110,11 @@ const HomePage = () => {
 					/>
 					<img src={businessMan} alt="business-man-running" className="h-24" />
 				</div>
-				<BouncingText className="mt-6 text-3xl text-blue-pure text-center">
+				<BouncingText className="mt-6 text-3xl text-blue-pure text-center text-glow">
 					Incentivize Unpaid Overtime
 				</BouncingText>
 			</div>
-			<div className="mt-20">
+			<div className="mx-4 mt-20 md:mx-0">
 				<div className="flex flex-col border glow">
 					<div className="bg-red-pure py-2 px-3">
 						<div className="marquee-bounce-right">

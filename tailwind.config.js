@@ -133,7 +133,7 @@ module.exports = {
 				700: "#b83280",
 				800: "#97266d",
 				900: "#702459",
-				pure: "pink"
+				pure: "#f903e9"
 			}
 		},
 		spacing: {

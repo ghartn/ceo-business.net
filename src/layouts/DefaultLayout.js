@@ -10,13 +10,15 @@ const DefaultLayout = ({ component: Component, path, ...rest }) => {
 			{...rest}
 			path={path}
 			render={matchProps => (
-				<div className="space-bg" style={{ backgroundImage: `url(${space})` }}>
-					<div className="container flex flex-col min-h-screen leading-normal ">
-						<TopNavigation path={path} />
-						<div className="flex-1">
-							<Component {...matchProps} />
+				<div className="layout" style={{ backgroundImage: `url(${space})` }}>
+					<div className="px-0 w-full md:scroll-fix">
+						<div className="container flex flex-col min-h-screen leading-normal ">
+							<TopNavigation path={path} />
+							<div className="flex-1">
+								<Component {...matchProps} />
+							</div>
+							<Footer />
 						</div>
-						<Footer />
 					</div>
 				</div>
 			)}
