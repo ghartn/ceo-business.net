@@ -18,7 +18,7 @@ class HomePage extends Component {
 		this.state = {
 			buttonClicked: false,
 			buttonPosition: {
-				top: "75%",
+				top: "90%",
 				left: "50%"
 			}
 		};
@@ -35,7 +35,6 @@ class HomePage extends Component {
 	};
 
 	_randomizeButtonPosition = () => {
-		console.log(window);
 		this.setState({
 			buttonPosition: {
 				top: Math.random() * 300,
@@ -47,6 +46,7 @@ class HomePage extends Component {
 	render() {
 		const { buttonClicked, buttonPosition } = this.state;
 		const { top, left } = buttonPosition;
+		const isMobile = window.innerWidth <= 640;
 		return (
 			<div className="pt-16">
 				<h1 className="max-w-full overflow-x-hidden text-5xl text-white blink text-center">
@@ -90,13 +90,13 @@ class HomePage extends Component {
 					<img src={world} alt="world" className="w-16 md:w-32" />
 				</div>
 				{buttonClicked ? (
-					<div className="relative flex flex-col md:w-2/3 justify-center w-auto mt-8 py-2 mx-auto rounded glow bg-yellow-pure texe-center">
-						<div className="p-4 flex justify-center w-auto">
-							<img src={money} alt="money" />
-							<h1 className="px-4 text-4xl font-bold text-green-pure text-glow text-center">
+					<div className="relative flex flex-col md:w-2/3 mb-6 justify-center w-auto mt-8 py-2 mx-auto rounded glow bg-yellow-pure texe-center">
+						<div className="p-4 flex justify-center overflow-x-hidden">
+							<img src={money} alt="money" className="flex-1" />
+							<h1 className="px-4 text-4xl font-bold text-green-pure text-glow text-center leading-tight">
 								YOU JUST WON $1,000,000 DOLLARS!!!
 							</h1>
-							<img src={money} alt="money" />
+							<img src={money} alt="money" className="flex-1" />
 						</div>
 						<div>
 							<button
@@ -106,7 +106,9 @@ class HomePage extends Component {
 								onMouseMove={this._randomizeButtonPosition}
 								style={{ top: top, left: left }}
 							>
-								CLICK HERE TO CLAIM YOUR PRIZE!
+								{!isMobile
+									? "CLICK HERE TO CLAIM YOUR PRIZE!"
+									: "CLAIM YOUR PRIZE ON DESKTOP COMPUTER"}
 							</button>
 						</div>
 					</div>
@@ -119,7 +121,7 @@ class HomePage extends Component {
 						className="mt-6 -mr-2 flex justify-center w-full overflow-x-hidden"
 						imgSrc={businessMan}
 						imgAlt={"business-man-running"}
-						imgClassName={"h-16 md:h-24"}
+						imgClassName={"h-16 md:h-24 flex-1"}
 						howMany={9}
 						spacing={2}
 					/>

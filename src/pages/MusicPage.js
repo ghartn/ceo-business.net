@@ -8,7 +8,7 @@ import robots from "../img/robots.gif";
 const MusicPage = () => {
 	return (
 		<div className="pt-12">
-			<div className="flex justify-center items-center">
+			<div className="flex flex-col md:flex-row justify-center items-center">
 				<img src={soundOn} alt="sound on" className="h-4 sm:h-8" />
 				<img src={logo} alt="logo" className="h-10 sm:h-16 mx-2" />
 				<img src={soundOn} alt="sound on" className="h-4 sm:h-8" />
