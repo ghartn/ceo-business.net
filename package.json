@@ -15,9 +15,10 @@
 		"watch-style": "postcss src/styles/index.css -o src/index.css -w",
 		"eject": "react-scripts eject",
 		"start": "npm-run-all -p watch-style start-app",
-		"build": "npm-run-all build-style build-app",
+		"build": "npm-run-all build-style build-app copy-404",
 		"start-app": "react-scripts start",
 		"build-app": "react-scripts build",
+		"copy-404": "cp build/index.html build/404.html",
 		"test": "react-scripts test --env=jsdom",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
