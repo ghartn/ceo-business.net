@@ -55,7 +55,7 @@ const TopNavigation = ({ path }) => {
 					Contact
 				</Link>
 			</div>
-			<img src={flamingLine} alt="flaming line" className="mx-auto h-16" />
+			<img src={flamingLine} alt="flaming line" className="mx-auto h-12" />
 		</div>
 	);
 };

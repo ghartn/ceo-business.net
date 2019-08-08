@@ -3,16 +3,15 @@
 @import "tailwindcss/utilities";
 @import "./animations.css";
 
+html {
+	overflow-y: scroll;
+}
+
 html,
 body,
 #root,
 .layout {
 	@apply w-full min-h-screen font-serif;
-}
-
-.scroll-fix {
-	width: calc(100vw - 68px);
-	padding-left: 34px;
 }
 
 .inset-shadow {
