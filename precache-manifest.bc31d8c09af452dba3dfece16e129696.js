@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d9835fe6b85b7a4323f12749aeec34e",
+    "revision": "3c959d97cc30484ccd2db89a5cadf611",
     "url": "/ceo-business.net/index.html"
   },
   {
-    "revision": "5b983d64566e80b338e1",
-    "url": "/ceo-business.net/static/css/main.d8c9d844.chunk.css"
+    "revision": "b406c37846d7bed534aa",
+    "url": "/ceo-business.net/static/css/main.e7b86f28.chunk.css"
   },
   {
-    "revision": "3385d7953ea4d018f388",
-    "url": "/ceo-business.net/static/js/2.434498c5.chunk.js"
+    "revision": "636d8b0b8ed6e0e418de",
+    "url": "/ceo-business.net/static/js/2.aa0e4375.chunk.js"
   },
   {
-    "revision": "5b983d64566e80b338e1",
-    "url": "/ceo-business.net/static/js/main.d9a8a66d.chunk.js"
+    "revision": "b406c37846d7bed534aa",
+    "url": "/ceo-business.net/static/js/main.8bc664c1.chunk.js"
   },
   {
     "revision": "ccfe83878341a8dac715",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f00a943f48877df824d06565588542b7",
     "url": "/ceo-business.net/static/media/instagram.f00a943f.gif"
+  },
+  {
+    "revision": "21f626e09a82b8d7a701f0ae10c88a4f",
+    "url": "/ceo-business.net/static/media/my-photo-album.21f626e0.gif"
   },
   {
     "revision": "55dc975d636af9d7a6e7a65b2b3f3fc1",
