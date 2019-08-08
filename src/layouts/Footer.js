@@ -30,7 +30,10 @@ const Footer = () => {
 					Mark Of the Web Master
 				</p>
 			</div>
-			<Link to="/" className="absolute left-0 bottom-0 h-6 sm:h-10 md:h-20 m-4">
+			<Link
+				to="/#"
+				className="absolute left-0 bottom-0 h-6 sm:h-10 md:h-20 m-4"
+			>
 				<img src={home} alt="home " className="max-h-full" />
 			</Link>
 			<img
