@@ -2,6 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import TopNavigation from "./TopNavigation";
 import Footer from "./Footer";
+import space from "../img/space.gif";
 
 const DefaultLayout = ({ component: Component, path, ...rest }) => {
 	return (
@@ -9,7 +10,7 @@ const DefaultLayout = ({ component: Component, path, ...rest }) => {
 			{...rest}
 			path={path}
 			render={matchProps => (
-				<div className="layout">
+				<div className="space-bg" style={{ backgroundImage: `url(${space})` }}>
 					<div className="container flex flex-col min-h-screen leading-normal ">
 						<TopNavigation path={path} />
 						<div className="flex-1">

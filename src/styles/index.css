@@ -6,12 +6,8 @@
 html,
 body,
 #root,
-.layout {
+.space-bg {
 	@apply w-full min-h-screen font-serif;
-}
-
-html {
-	background-image: url("./img/space.gif");
 }
 
 .inset-shadow {
