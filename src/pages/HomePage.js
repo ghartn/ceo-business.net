@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import genie from "../img/genie.gif";
 import world from "../img/world.gif";
 import clickHere from "../img/click-here.gif";
@@ -37,9 +38,9 @@ const HomePage = () => {
 								className="absolute h-16 ml-4"
 								style={{ transform: "rotate(270deg) scaleX(-1)", left: "100%" }}
 							/>
-							<a href="/" className="block">
+							<Link to="/" className="block">
 								<img src={clickHere} alt="click here" className="h-16" />
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
