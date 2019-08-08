@@ -15,7 +15,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<Switch>
 				<DefaultLayout path="/" exact component={HomePage} />
 				<DefaultLayout path="/music" component={MusicPage} />
