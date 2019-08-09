@@ -76,93 +76,91 @@ const AboutPage = () => {
 				howMany={9}
 				spacing={2}
 			/>
-			<div className="mt-12 mx-2 flex flex-col overflow-x-hidden ">
-				<div className="flex justify-center items-center overflow-x-hidden">
-					<img src={myPhotoAlbum} alt="my album" className="w-16 md:w-24" />
-					<div className="marquee-bounce-left">
-						<BouncingText className="text-3xl text-yellow-pure text-center text-glow">
-							My Photos!
-						</BouncingText>
-					</div>
-					<img src={fluff} alt="fluffy smile" className="w-16 md:w-24" />
+			<div className="mt-12 mx-2 flex justify-center items-center overflow-x-hidden">
+				<img src={myPhotoAlbum} alt="my album" className="w-16 md:w-24" />
+				<div className="marquee-bounce-left">
+					<BouncingText className="text-3xl text-yellow-pure text-center text-glow">
+						My Photos!
+					</BouncingText>
 				</div>
-				<div className="relative">
-					<Gallery
-						targetRowHeight={240}
-						margin={4}
-						photos={[
-							{
-								src: img1,
-								width: 4,
-								height: 3
-							},
-							{
-								src: img2,
-								width: 25,
-								height: 38
-							},
-							{
-								src: img3,
-								width: 125,
-								height: 72
-							},
-							{
-								src: img4,
-								width: 4,
-								height: 3
-							},
-							{
-								src: img5,
-								width: 169,
-								height: 179
-							},
-							{
-								src: img6,
-								width: 88,
-								height: 155
-							},
-							{
-								src: img7,
-								width: 61,
-								height: 88
-							},
-							{
-								src: img8,
-								width: 4,
-								height: 3
-							},
-							{
-								src: img9,
-								width: 79,
-								height: 90
-							},
-							{
-								src: img10,
-								width: 191,
-								height: 138
-							},
-							{
-								src: img11,
-								width: 4,
-								height: 3
-							},
-							{
-								src: img12,
-								width: 27,
-								height: 10
-							}
-						]}
-					/>
-					<img
-						src={homer}
-						alt="homer"
-						className="h-24 absolute z-10"
-						style={{
-							right: 0,
-							bottom: 0
-						}}
-					/>
-				</div>
+				<img src={fluff} alt="fluffy smile" className="w-16 md:w-24" />
+			</div>
+			<div className="relative mx-2 overflow-y-visible">
+				<Gallery
+					targetRowHeight={240}
+					margin={4}
+					photos={[
+						{
+							src: img1,
+							width: 4,
+							height: 3
+						},
+						{
+							src: img2,
+							width: 25,
+							height: 38
+						},
+						{
+							src: img3,
+							width: 125,
+							height: 72
+						},
+						{
+							src: img4,
+							width: 4,
+							height: 3
+						},
+						{
+							src: img5,
+							width: 169,
+							height: 179
+						},
+						{
+							src: img6,
+							width: 88,
+							height: 155
+						},
+						{
+							src: img7,
+							width: 61,
+							height: 88
+						},
+						{
+							src: img8,
+							width: 4,
+							height: 3
+						},
+						{
+							src: img9,
+							width: 79,
+							height: 90
+						},
+						{
+							src: img10,
+							width: 191,
+							height: 138
+						},
+						{
+							src: img11,
+							width: 4,
+							height: 3
+						},
+						{
+							src: img12,
+							width: 27,
+							height: 10
+						}
+					]}
+				/>
+				<img
+					src={homer}
+					alt="homer"
+					className="h-12 md:h-24 absolute z-10"
+					style={{
+						right: 0,
+						bottom: "-2rem"
+					}}
+				/>
 			</div>
 		</div>
 	);

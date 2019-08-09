@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import counter from "../img/counter.gif";
 import fireworks from "../img/fireworks.gif";
 import ie4 from "../img/ie4.gif";
 import familySafe from "../img/family-safe.gif";
-import home from "../img/home.gif";
+import up from "../img/up.gif";
 
 const Footer = () => {
 	return (
@@ -30,12 +29,12 @@ const Footer = () => {
 					Mark Of the Web Master
 				</p>
 			</div>
-			<Link
-				to="/#"
-				className="absolute left-0 bottom-0 h-6 sm:h-10 md:h-20 m-4"
+			<button
+				className="absolute left-0 bottom-0 h-6 sm:h-10 md:h-20 m-4 focus:outline-none focus:border-0"
+				onClick={_scrollToTop}
 			>
-				<img src={home} alt="home " className="max-h-full" />
-			</Link>
+				<img src={up} alt="up " className="max-h-full" />
+			</button>
 			<img
 				src={familySafe}
 				alt="family safe website"
@@ -43,6 +42,10 @@ const Footer = () => {
 			/>
 		</div>
 	);
+};
+
+const _scrollToTop = () => {
+	window.scrollTo(0, 0);
 };
 
 export default Footer;
