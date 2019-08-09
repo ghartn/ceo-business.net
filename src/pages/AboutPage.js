@@ -6,7 +6,30 @@ import ImageRow from "../components/ImageRow";
 import gem from "../img/gem.gif";
 import myPhotoAlbum from "../img/my-photo-album.gif";
 import fluff from "../img/fluff.gif";
-
+import img1 from "../img/1.jpg";
+import img2 from "../img/2.gif";
+import img3 from "../img/3.jpg";
+import img4 from "../img/4.jpg";
+import img5 from "../img/5.jpg";
+import img6 from "../img/6.gif";
+import img7 from "../img/7.gif";
+import img8 from "../img/8.jpg";
+import img9 from "../img/9.gif";
+import img10 from "../img/10.jpg";
+import img11 from "../img/11.gif";
+import img12 from "../img/12.jpg";
+import cactus from "../img/cactus.gif";
+import cat from "../img/cat.gif";
+import dance from "../img/dance.gif";
+import dj from "../img/dj.gif";
+import dove from "../img/dove.gif";
+import treble from "../img/treble.gif";
+import homer from "../img/homer.gif";
+import hot from "../img/hot.gif";
+import skull from "../img/skull.gif";
+import potato from "../img/potato.gif";
+import runningMan from "../img/running-man.gif";
+import rose from "../img/rose.gif";
 const AboutPage = () => {
 	return (
 		<div className="pt-12">
@@ -50,7 +73,7 @@ const AboutPage = () => {
 				howMany={9}
 				spacing={2}
 			/>
-			<div className="mt-12 mx-2 w-full md:w-2/3 md:mx-auto flex flex-col overflow-x-hidden">
+			<div className="mt-12 mx-2 flex flex-col overflow-x-hidden">
 				<div className="flex justify-center items-center overflow-x-hidden">
 					<img src={myPhotoAlbum} alt="my album" className="w-16 md:w-24" />
 					<div className="marquee-bounce-left">
@@ -60,27 +83,177 @@ const AboutPage = () => {
 					</div>
 					<img src={fluff} alt="fluffy smile" className="w-16 md:w-24" />
 				</div>
-				<div className="md:-mx-2 flex flex-wrap">
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-red-pure" />
+				<div className="-ml-2 flex flex-row flex-wrap">
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "24rem"
+						}}
+					>
+						<img src={img1} alt="1" className="h-full w-full object-fill" />
+						<img
+							src={cactus}
+							alt="cactus"
+							className="absolute z-10 top-0 left-0 h-16"
+						/>
+						<img
+							src={dove}
+							alt="dove"
+							className="absolute z-10 bottom-0 right-0 h-32"
+							style={{
+								transform: "scaleX(-1)",
+								top: "10rem"
+							}}
+						/>
 					</div>
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-orange-pure" />
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "12rem"
+						}}
+					>
+						<img src={img2} alt="2" className="h-full w-full object-fill" />
+						<img
+							src={cat}
+							alt="cat"
+							className="absolute z-10 bottom-0 right-0 h-16"
+							style={{
+								transform: "scaleX(-1)"
+							}}
+						/>
 					</div>
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-yellow-pure" />
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "32rem"
+						}}
+					>
+						<img src={img3} alt="3" className="h-full w-full object-fill" />
+						<img
+							src={dj}
+							alt="dj"
+							className="absolute z-10 top-0 left-0 h-16"
+						/>
 					</div>
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-green-pure" />
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "14rem"
+						}}
+					>
+						<img src={img6} alt="6" className="h-full w-full object-fill" />
+						<img
+							src={dance}
+							alt="dance"
+							className="absolute z-10 bottom-0 right-0 h-32"
+						/>
 					</div>
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-blue-pure" />
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "24rem"
+						}}
+					>
+						<img src={img4} alt="4" className="h-full w-full object-fill" />
+						<img
+							src={treble}
+							alt="treble"
+							className="absolute z-10 top-0 right-0 h-12"
+						/>
 					</div>
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-indigo-pure" />
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "12rem"
+						}}
+					>
+						<img src={img5} alt="5" className="h-full w-full object-fill" />
+						<img
+							src={skull}
+							alt="skull"
+							className="absolute z-10 top-0 right-0 h-16"
+						/>
 					</div>
-					<div className="block w-full md:w-1/2 lg:w-1/3 p-2">
-						<div className="block h-48 bg-pink-pure" />
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "12rem"
+						}}
+					>
+						<img src={img7} alt="7" className="h-full w-full object-fill" />
+					</div>
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "24rem"
+						}}
+					>
+						<img src={img8} alt="8" className="h-full w-full object-fill" />
+						<img
+							src={hot}
+							alt="hot"
+							className="absolute z-10 top-0 left-0 h-16"
+						/>
+						<img
+							src={rose}
+							alt="rose"
+							className="absolute z-10 bottom-0 right-0 h-16"
+						/>
+					</div>
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "12rem"
+						}}
+					>
+						<img src={img9} alt="9" className="h-full w-full object-fill" />
+						<img
+							src={potato}
+							alt="potato"
+							className="absolute z-10 top-0 right-0 h-16"
+						/>
+					</div>
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "24rem"
+						}}
+					>
+						<img src={img10} alt="10" className="h-full w-full object-fill" />
+						<img
+							src={runningMan}
+							alt="runningMan"
+							className="absolute z-10 bottom-0 right-0 h-16"
+						/>
+					</div>
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "24rem"
+						}}
+					>
+						<img src={img11} alt="11" className="h-full w-full object-fill" />
+						<img
+							src={runningMan}
+							alt="runningMan"
+							className="absolute z-10 bottom-0 left-0 h-16"
+							style={{
+								transform: "scaleX(-1)"
+							}}
+						/>
+					</div>
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "32rem"
+						}}
+					>
+						<img src={img12} alt="12" className="h-full w-full object-fill" />
+						<img
+							src={homer}
+							alt="homer"
+							className="absolute z-10 bottom-0 right-0 h-16"
+						/>
 					</div>
 				</div>
 			</div>
