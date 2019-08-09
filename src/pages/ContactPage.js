@@ -14,17 +14,17 @@ const ContactPage = () => {
 			</h1>
 			<div className="mt-12 flex justify-center">
 				<div className="flex flex-col align-items">
-					<a href="mailto:musicindustryahole@gmail.com">
+					<a href="mailto:ceo.business.net@gmail.com">
 						<img src={mail} alt="mail" className="h-16 md:h-32" />
 					</a>
-					<a href="mailto:musicindustryahole@gmail.com">
+					<a href="mailto:ceo.business.net@gmail.com">
 						<img src={mail} alt="mail" className="h-16 md:h-32" />
 					</a>
 				</div>
-				<a href="mailto:musicindustryahole@gmail.com">
+				<a href="mailto:ceo.business.net@gmail.com">
 					<img src={skullMail} alt="skull mail" className="h-32 md:h-64" />
 				</a>
-				<a href="mailto:musicindustryahole@gmail.com">
+				<a href="mailto:ceo.business.net@gmail.com">
 					<img
 						src={skullMail}
 						alt="skull mail"
@@ -33,10 +33,10 @@ const ContactPage = () => {
 					/>
 				</a>
 				<div className="flex flex-col align-items">
-					<a href="mailto:musicindustryahole@gmail.com">
+					<a href="mailto:ceo.business.net@gmail.com">
 						<img src={mail} alt="mail" className="h-16 md:h-32" />
 					</a>
-					<a href="mailto:musicindustryahole@gmail.com">
+					<a href="mailto:ceo.business.net@gmail.com">
 						<img src={mail} alt="mail" className="h-16 md:h-32" />
 					</a>
 				</div>
