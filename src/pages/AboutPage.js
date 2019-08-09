@@ -19,9 +19,9 @@ import img9 from "../img/9.gif";
 import img10 from "../img/10.jpg";
 import img11 from "../img/11.gif";
 import img12 from "../img/12.jpg";
-
 import cat from "../img/cat.gif";
 import homer from "../img/homer.gif";
+import open24Hours from "../img/open-24-hours.gif";
 
 const AboutPage = () => {
 	return (
@@ -162,6 +162,11 @@ const AboutPage = () => {
 					}}
 				/>
 			</div>
+			<img
+				src={open24Hours}
+				alt="open 24 hours"
+				className="ml-2 mt-1 block w-32 md:w-64"
+			/>
 		</div>
 	);
 };

@@ -30,7 +30,7 @@ const Footer = () => {
 				</p>
 			</div>
 			<button
-				className="absolute left-0 bottom-0 h-6 sm:h-10 md:h-20 m-4 focus:outline-none focus:border-0"
+				className="block absolute left-0 bottom-0 h-12 md:h-32 m-2 focus:outline-none focus:border-0"
 				onClick={_scrollToTop}
 			>
 				<img src={up} alt="up " className="max-h-full" />
@@ -38,7 +38,7 @@ const Footer = () => {
 			<img
 				src={familySafe}
 				alt="family safe website"
-				className="absolute right-0 bottom-0 h-6 sm:h-10 md:h-20 m-4"
+				className="block absolute right-0 bottom-0 h-12 md:h-20 mx-2 mb-2 md:mb-6"
 			/>
 		</div>
 	);
