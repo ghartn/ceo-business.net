@@ -39,14 +39,14 @@ const LinksPage = () => {
 					style={{ transform: "scaleX(-1)" }}
 				/>
 				<a
-					href="https://instagram.com/lentralentra"
+					href="https://instagram.com/ceo_at_business"
 					rel="noopener noreferrer"
 					target="_blank"
 				>
 					<img src={instagram} alt="instagram" className="h-16 md:h-32" />
 				</a>
 				<a
-					href="https://twitter.com/lentralentra"
+					href="https://twitter.com/ceo_at_business"
 					rel="noopener noreferrer"
 					target="_blank"
 				>
@@ -55,7 +55,7 @@ const LinksPage = () => {
 					</div>
 				</a>
 				<a
-					href="https://soundcloud.com/lentra"
+					href="https://soundcloud.com/ceo_at_business"
 					rel="noopener noreferrer"
 					target="_blank"
 				>
