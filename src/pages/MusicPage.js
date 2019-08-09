@@ -4,6 +4,8 @@ import soundOn from "../img/sound-on.gif";
 import dancingBaby from "../img/dancing-baby.gif";
 import music from "../img/music.gif";
 import robots from "../img/robots.gif";
+import dance from "../img/dance.gif";
+import dj from "../img/dj.gif";
 
 const MusicPage = () => {
 	return (
@@ -15,11 +17,29 @@ const MusicPage = () => {
 			</div>
 			<div className="mt-6 flex items-center">
 				<img src={dancingBaby} alt="dancing baby" className="w-16 md:w-32" />
-				<div className="p-6 bg-blue-pure">
+				<div className="relative p-6 bg-blue-pure">
 					<p className="text-lg text-white text-center">
 						PLACEHOLDER TEXT FOR WHEN I CAN EMBED SOMETHING HERE. SOMEONE REMIND
 						ME TO FIX THIS BEFORE I DEPLOY TO A LIVE SITE HAHA
 					</p>
+					<img
+						src={dj}
+						alt="dj"
+						className="h-16 absolute z-10"
+						style={{
+							top: "-2rem",
+							left: 0
+						}}
+					/>
+					<img
+						src={dance}
+						alt="dance"
+						className="h-16 absolute z-10"
+						style={{
+							right: 0,
+							bottom: "-2rem"
+						}}
+					/>
 				</div>
 				<img src={robots} alt="dancing robots" className="w-16 md:w-32" />
 			</div>

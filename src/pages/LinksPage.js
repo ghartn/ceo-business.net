@@ -25,11 +25,12 @@ import award12 from "../img/award12.gif";
 import award13 from "../img/award13.gif";
 import award14 from "../img/award14.gif";
 import award15 from "../img/award15.gif";
+import Gallery from "react-photo-gallery";
 
 const LinksPage = () => {
 	return (
 		<div className="pt-12">
-			<img src={coolLinks} alt="COOL LINKS" className="mx-4 w-full" />
+			<img src={coolLinks} alt="COOL LINKS" className="px-4 w-full" />
 			<div className="mt-12 flex justify-center items-center">
 				<img
 					src={arrow}
@@ -62,7 +63,7 @@ const LinksPage = () => {
 				</a>
 				<img src={arrow} alt="rainbow arrow" className="h-8 md:h-24" />
 			</div>
-			<img src={coolLinks} alt="COOL LINKS" className="mt-12 mx-4 w-full" />
+			<img src={coolLinks} alt="COOL LINKS" className="mt-12 px-4 w-full" />
 			<div className="mt-24 mb-4 w-full flex flex-col justify-center items-center">
 				<BouncingText className="px-4 text-xl sm:text-3xl font-bold text-pink-pure text-glow text-center">
 					CHECK OUT OUR INTERNET FRIENDS!
@@ -72,9 +73,9 @@ const LinksPage = () => {
 					alt="future divider"
 					className="mb-4 mx-4 w-full sm:w-1/2 mx-auto"
 				/>
-				<div className="flex flex-wrap justify-center lg:justify-between">
+				<div className="flex flex-wrap justify-center w-full">
 					<a
-						href="https://google.com"
+						href="https://lentra.ca"
 						rel="noopener noreferrer"
 						target="_blank"
 						className="block mr-2 mt-8 lg:mt-0"
@@ -82,7 +83,7 @@ const LinksPage = () => {
 						<img src={proudParent} alt="proud parent" className="h-32" />
 					</a>
 					<a
-						href="https://google.com"
+						href="https://lentra.ca"
 						rel="noopener noreferrer"
 						target="_blank"
 						className="block mr-2 mt-8 lg:mt-0"
@@ -90,25 +91,25 @@ const LinksPage = () => {
 						<img src={webaholic} alt="webaholic" className="h-32" />
 					</a>
 					<a
-						href="https://google.com"
+						href="https://lentra.ca"
 						rel="noopener noreferrer"
 						target="_blank"
 						className="block mr-2 mt-8 lg:mt-0"
 					>
 						<img src={lottery} alt="lottery" className="h-32" />
 					</a>
-					<a
-						href="https://google.com"
-						rel="noopener noreferrer"
-						target="_blank"
-						className="block mx-auto bg-white mt-8"
-					>
-						<img src={celibacy} alt="celibacy forum" className="h-16" />
-					</a>
 				</div>
-				<div className="mt-16">
+				<a
+					href="https://lentra.ca"
+					rel="noopener noreferrer"
+					target="_blank"
+					className="block mx-auto bg-white mt-8"
+				>
+					<img src={celibacy} alt="celibacy forum" className="h-16" />
+				</a>
+				<div className="mt-24">
 					<h1
-						className="text-4xl mb-4 text-center text-white text-glow blink"
+						className="text-xl sm:text-4xl mb-4 text-center text-white text-glow blink"
 						style={{ fontFamily: "'Comic Sans MS', cursive" }}
 					>
 						<span className="inline-block text-red-pure">O</span>
@@ -130,51 +131,80 @@ const LinksPage = () => {
 						<span className="inline-block text-purple-pure">!</span>
 					</h1>
 					<img src={puzzle} alt="puzzle line" className="w-full" />
-					<div className="-ml-2 flex flex-wrap w-full">
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award2} alt="award 2" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award3} alt="award 3" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award4} alt="award 4" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award5} alt="award 5" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award6} alt="award 6" className="w-full h-full" />
-						</div>
-
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award13} alt="award 13" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award8} alt="award 8" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award10} alt="award 10" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award11} alt="award 11" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award1} alt="award 1" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award12} alt="award 12" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award9} alt="award 9" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award14} alt="award 14" className="w-full h-full" />
-						</div>
-						<div className="mb-2 ml-2 flex-auto flex-shrink-0 h-16 sm:h-32">
-							<img src={award15} alt="award 15" className="w-full h-full" />
-						</div>
-					</div>
+					<Gallery
+						photos={[
+							{
+								src: award1,
+								width: 4,
+								height: 3
+							},
+							{
+								src: award2,
+								width: 21,
+								height: 29
+							},
+							{
+								src: award3,
+								width: 8,
+								height: 5
+							},
+							{
+								src: award4,
+								width: 5,
+								height: 8
+							},
+							{
+								src: award5,
+								width: 1,
+								height: 1
+							},
+							{
+								src: award6,
+								width: 1,
+								height: 1
+							},
+							{
+								src: award8,
+								width: 1,
+								height: 1
+							},
+							{
+								src: award9,
+								width: 34,
+								height: 23
+							},
+							{
+								src: award10,
+								width: 243,
+								height: 334
+							},
+							{
+								src: award11,
+								width: 50,
+								height: 47
+							},
+							{
+								src: award12,
+								width: 21,
+								height: 26
+							},
+							{
+								src: award13,
+								width: 13,
+								height: 8
+							},
+							{
+								src: award14,
+								width: 1,
+								height: 1
+							},
+							{
+								src: award15,
+								width: 64,
+								height: 49
+							}
+						]}
+					/>
 					<img src={puzzle} alt="puzzle line" className="w-full" />
 				</div>
 			</div>

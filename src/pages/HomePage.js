@@ -12,6 +12,8 @@ import flymoney from "../img/flymoney.gif";
 import coins from "../img/coins.gif";
 import ImageRow from "../components/ImageRow";
 import dollar from "../img/dollar.gif";
+import potato from "../img/potato.gif";
+import runningMan from "../img/running-man.gif";
 class HomePage extends Component {
 	constructor() {
 		super();
@@ -131,14 +133,23 @@ class HomePage extends Component {
 				</div>
 				<div className="mx-2 mt-20 md:mx-0">
 					<div className="flex flex-col border glow">
-						<div className="bg-red-pure py-2 px-3">
+						<div className="relative bg-red-pure py-2 px-3">
 							<div className="marquee-bounce-right">
 								<h2 className="font-bold text-white text-2xl text-shadow">
 									News!
 								</h2>
 							</div>
+							<img
+								src={potato}
+								alt="potato"
+								className="h-16 absolute z-10"
+								style={{
+									right: 0,
+									top: "-1rem"
+								}}
+							/>
 						</div>
-						<div className="flex flex-col lg:flex-row bg-gray-300">
+						<div className="flex flex-col lg:flex-row bg-gray-300 relative">
 							<div className="m-4 flex flex-col flex-1 bg-gray-200">
 								<div className="flex items-center h-16 p-2 inset-shadow bg-gray-400 border-gray-600 border-l border-r">
 									<h3 className="font-bold">Company Jet Has Doubled In Size</h3>
@@ -178,6 +189,25 @@ class HomePage extends Component {
 									<img src={coins} alt="coins" className="h-8 md:h-16" />
 								</div>
 							</div>
+							<img
+								src={runningMan}
+								alt="runningMan"
+								className="h-16 absolute z-10"
+								style={{
+									left: 0,
+									bottom: 0
+								}}
+							/>
+							<img
+								src={runningMan}
+								alt="runningMan"
+								className="h-16 absolute z-10"
+								style={{
+									right: 0,
+									bottom: 0,
+									transform: "scaleX(-1)"
+								}}
+							/>
 						</div>
 					</div>
 				</div>
