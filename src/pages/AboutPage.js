@@ -87,14 +87,30 @@ const AboutPage = () => {
 					<div
 						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
 						style={{
-							width: "24rem"
+							width: "18rem"
 						}}
 					>
-						<img src={img1} alt="1" className="h-full w-full object-fill" />
+						<img
+							src={img1}
+							alt="1"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={cactus}
 							alt="cactus"
 							className="absolute z-10 top-0 left-0 h-16"
+						/>
+					</div>
+					<div
+						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
+						style={{
+							width: "10rem"
+						}}
+					>
+						<img
+							src={img2}
+							alt="2"
+							className="h-full w-full object-contain sm:object-fill"
 						/>
 						<img
 							src={dove}
@@ -109,10 +125,14 @@ const AboutPage = () => {
 					<div
 						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
 						style={{
-							width: "12rem"
+							width: "26rem"
 						}}
 					>
-						<img src={img2} alt="2" className="h-full w-full object-fill" />
+						<img
+							src={img3}
+							alt="3"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={cat}
 							alt="cat"
@@ -121,14 +141,6 @@ const AboutPage = () => {
 								transform: "scaleX(-1)"
 							}}
 						/>
-					</div>
-					<div
-						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
-						style={{
-							width: "32rem"
-						}}
-					>
-						<img src={img3} alt="3" className="h-full w-full object-fill" />
 						<img
 							src={dj}
 							alt="dj"
@@ -138,23 +150,26 @@ const AboutPage = () => {
 					<div
 						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
 						style={{
-							width: "14rem"
+							width: "8rem"
 						}}
 					>
-						<img src={img6} alt="6" className="h-full w-full object-fill" />
 						<img
-							src={dance}
-							alt="dance"
-							className="absolute z-10 bottom-0 right-0 h-32"
+							src={img6}
+							alt="6"
+							className="h-full w-full object-contain sm:object-fill"
 						/>
 					</div>
 					<div
 						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
 						style={{
-							width: "24rem"
+							width: "20rem"
 						}}
 					>
-						<img src={img4} alt="4" className="h-full w-full object-fill" />
+						<img
+							src={img4}
+							alt="4"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={treble}
 							alt="treble"
@@ -167,20 +182,28 @@ const AboutPage = () => {
 							width: "12rem"
 						}}
 					>
-						<img src={img5} alt="5" className="h-full w-full object-fill" />
 						<img
-							src={skull}
-							alt="skull"
-							className="absolute z-10 top-0 right-0 h-16"
+							src={img5}
+							alt="5"
+							className="h-full w-full object-contain sm:object-fill"
 						/>
 					</div>
 					<div
 						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
 						style={{
-							width: "12rem"
+							width: "6rem"
 						}}
 					>
-						<img src={img7} alt="7" className="h-full w-full object-fill" />
+						<img
+							src={img7}
+							alt="7"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
+						<img
+							src={dance}
+							alt="dance"
+							className="absolute z-10 bottom-0 left-0 h-32"
+						/>
 					</div>
 					<div
 						className="relative mb-2 ml-2 flex-auto h-32 md:h-64"
@@ -188,7 +211,11 @@ const AboutPage = () => {
 							width: "24rem"
 						}}
 					>
-						<img src={img8} alt="8" className="h-full w-full object-fill" />
+						<img
+							src={img8}
+							alt="8"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={hot}
 							alt="hot"
@@ -206,7 +233,11 @@ const AboutPage = () => {
 							width: "12rem"
 						}}
 					>
-						<img src={img9} alt="9" className="h-full w-full object-fill" />
+						<img
+							src={img9}
+							alt="9"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={potato}
 							alt="potato"
@@ -219,11 +250,15 @@ const AboutPage = () => {
 							width: "24rem"
 						}}
 					>
-						<img src={img10} alt="10" className="h-full w-full object-fill" />
 						<img
-							src={runningMan}
-							alt="runningMan"
-							className="absolute z-10 bottom-0 right-0 h-16"
+							src={img10}
+							alt="10"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
+						<img
+							src={skull}
+							alt="skull"
+							className="absolute z-10 top-0 right-0 h-16"
 						/>
 					</div>
 					<div
@@ -232,7 +267,11 @@ const AboutPage = () => {
 							width: "24rem"
 						}}
 					>
-						<img src={img11} alt="11" className="h-full w-full object-fill" />
+						<img
+							src={img11}
+							alt="11"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={runningMan}
 							alt="runningMan"
@@ -248,7 +287,11 @@ const AboutPage = () => {
 							width: "32rem"
 						}}
 					>
-						<img src={img12} alt="12" className="h-full w-full object-fill" />
+						<img
+							src={img12}
+							alt="12"
+							className="h-full w-full object-contain sm:object-fill"
+						/>
 						<img
 							src={homer}
 							alt="homer"
