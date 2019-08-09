@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67cdf66f8b18a767895c697a4068c702",
+    "revision": "88b16885402f7522a0c06dee09149c6e",
     "url": "/ceo-business.net/index.html"
   },
   {
-    "revision": "6bf7003f7d46b8bd7770",
+    "revision": "f43631470f53bd994b8d",
     "url": "/ceo-business.net/static/css/main.e5630f6e.chunk.css"
   },
   {
-    "revision": "5451bc02371b595f8f25",
-    "url": "/ceo-business.net/static/js/2.8e421fcb.chunk.js"
+    "revision": "c09d58eb3c3ad999792e",
+    "url": "/ceo-business.net/static/js/2.fbd35f4c.chunk.js"
   },
   {
-    "revision": "6bf7003f7d46b8bd7770",
-    "url": "/ceo-business.net/static/js/main.e064f926.chunk.js"
+    "revision": "f43631470f53bd994b8d",
+    "url": "/ceo-business.net/static/js/main.daecc3fa.chunk.js"
   },
   {
     "revision": "ccfe83878341a8dac715",
@@ -178,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "222f69170061dd7b5d30d873d871e41a",
     "url": "/ceo-business.net/static/media/under-construction.222f6917.gif"
+  },
+  {
+    "revision": "8e55d10225c8c2d3fd6b499d745c1bd6",
+    "url": "/ceo-business.net/static/media/up.8e55d102.gif"
   },
   {
     "revision": "b02f1540ec805d133054d061815f2226",

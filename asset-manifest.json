@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ceo-business.net/static/css/main.e5630f6e.chunk.css",
-    "main.js": "/ceo-business.net/static/js/main.e064f926.chunk.js",
-    "main.js.map": "/ceo-business.net/static/js/main.e064f926.chunk.js.map",
+    "main.js": "/ceo-business.net/static/js/main.daecc3fa.chunk.js",
+    "main.js.map": "/ceo-business.net/static/js/main.daecc3fa.chunk.js.map",
     "runtime~main.js": "/ceo-business.net/static/js/runtime~main.2b4154bb.js",
     "runtime~main.js.map": "/ceo-business.net/static/js/runtime~main.2b4154bb.js.map",
-    "static/js/2.8e421fcb.chunk.js": "/ceo-business.net/static/js/2.8e421fcb.chunk.js",
-    "static/js/2.8e421fcb.chunk.js.map": "/ceo-business.net/static/js/2.8e421fcb.chunk.js.map",
+    "static/js/2.fbd35f4c.chunk.js": "/ceo-business.net/static/js/2.fbd35f4c.chunk.js",
+    "static/js/2.fbd35f4c.chunk.js.map": "/ceo-business.net/static/js/2.fbd35f4c.chunk.js.map",
     "index.html": "/ceo-business.net/index.html",
-    "precache-manifest.8df682c0094a9428d6968df66d0f8d1c.js": "/ceo-business.net/precache-manifest.8df682c0094a9428d6968df66d0f8d1c.js",
+    "precache-manifest.600e981de586ef215d03946c7144a93a.js": "/ceo-business.net/precache-manifest.600e981de586ef215d03946c7144a93a.js",
     "service-worker.js": "/ceo-business.net/service-worker.js",
     "static/css/main.e5630f6e.chunk.css.map": "/ceo-business.net/static/css/main.e5630f6e.chunk.css.map",
     "static/media/1.jpg": "/ceo-business.net/static/media/1.5026906f.jpg",
@@ -51,6 +51,7 @@
     "static/media/soundcloud.gif": "/ceo-business.net/static/media/soundcloud.dd5ff5a5.gif",
     "static/media/twitter.gif": "/ceo-business.net/static/media/twitter.6c36bb26.gif",
     "static/media/under-construction.gif": "/ceo-business.net/static/media/under-construction.222f6917.gif",
+    "static/media/up.gif": "/ceo-business.net/static/media/up.8e55d102.gif",
     "static/media/webaholic.gif": "/ceo-business.net/static/media/webaholic.b02f1540.gif",
     "static/media/world.gif": "/ceo-business.net/static/media/world.b071786c.gif"
   }
