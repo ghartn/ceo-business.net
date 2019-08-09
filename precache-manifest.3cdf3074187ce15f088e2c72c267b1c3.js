@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "deb49443cb85585ea0062d885f079647",
+    "revision": "d649ef1b872281cef395e2870e2ad108",
     "url": "/ceo-business.net/index.html"
   },
   {
-    "revision": "ca47f2968c254212d47e",
+    "revision": "c0cc73a28372361a4525",
     "url": "/ceo-business.net/static/css/main.2414b069.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ceo-business.net/static/js/2.5e2e6c13.chunk.js"
   },
   {
-    "revision": "ca47f2968c254212d47e",
-    "url": "/ceo-business.net/static/js/main.c91548c5.chunk.js"
+    "revision": "c0cc73a28372361a4525",
+    "url": "/ceo-business.net/static/js/main.52998e05.chunk.js"
   },
   {
     "revision": "ccfe83878341a8dac715",

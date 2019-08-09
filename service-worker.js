@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ceo-business.net/precache-manifest.10dec0de0112c6870fe8979b36ffdf0b.js"
+  "/ceo-business.net/precache-manifest.3cdf3074187ce15f088e2c72c267b1c3.js"
 );
 
 self.addEventListener('message', (event) => {
