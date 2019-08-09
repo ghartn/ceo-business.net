@@ -120,3 +120,31 @@ blink,
 		transform: translate(90%, 0);
 	}
 }
+
+.rabbit-run {
+	white-space: nowrap;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.rabbit-run > * {
+	display: inline-block;
+	text-indent: 0;
+	padding-right: 80%;
+	animation: rabbit-run 3540ms linear infinite;
+}
+
+@keyframes rabbit-run {
+	0% {
+		transform: translate(-10%, 0);
+	}
+	5% {
+		transform: translate(0, 0);
+	}
+	58% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(120%, 0);
+	}
+}

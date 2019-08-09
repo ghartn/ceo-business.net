@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import flamingLine from "../img/flamingline.gif";
+import flame from "../img/flame.gif";
 
 const TopNavigation = ({ path }) => {
 	return (
@@ -55,7 +55,7 @@ const TopNavigation = ({ path }) => {
 					Contact
 				</Link>
 			</div>
-			<img src={flamingLine} alt="flaming line" className="mx-auto h-12" />
+			<img src={flame} alt="flaming line" className="mx-auto h-12" />
 		</div>
 	);
 };

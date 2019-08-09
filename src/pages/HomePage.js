@@ -14,6 +14,13 @@ import ImageRow from "../components/ImageRow";
 import dollar from "../img/dollar.gif";
 import potato from "../img/potato.gif";
 import runningMan from "../img/running-man.gif";
+import testimonials from "../img/testimonials.gif";
+import thumbsUp from "../img/thumbs-up.gif";
+import hot from "../img/hot.gif";
+import rose from "../img/rose.gif";
+import guitar from "../img/guitar.gif";
+import smile from "../img/smile.gif";
+import rabbit from "../img/rabbit.gif";
 class HomePage extends Component {
 	constructor() {
 		super();
@@ -131,7 +138,7 @@ class HomePage extends Component {
 						Incentivize Unpaid Overtime
 					</BouncingText>
 				</div>
-				<div className="mx-2 mt-20 md:mx-0">
+				<div className="px-2 mt-20 md:mx-0">
 					<div className="flex flex-col border glow">
 						<div className="relative bg-red-pure py-2 px-3">
 							<div className="marquee-bounce-right">
@@ -219,6 +226,95 @@ class HomePage extends Component {
 					howMany={12}
 					spacing={2}
 				/>
+				<div className="mt-20">
+					<div className="px-2 flex justify-center items-center overflow-x-hidden">
+						<img
+							src={testimonials}
+							alt="testimonials"
+							className="w-32 md:w-48"
+						/>
+						<h1
+							className="text-xl sm:text-5xl text-center text-white text-glow blink"
+							style={{ fontFamily: "'Comic Sans MS', cursive" }}
+						>
+							<span className="inline-block text-red-pure">T</span>
+							<span className="inline-block text-orange-pure">e</span>
+							<span className="inline-block text-yellow-pure">S</span>
+							<span className="inline-block text-green-pure">T</span>
+							<span className="inline-block text-blue-pure">i</span>
+							<span className="inline-block text-indigo-pure">M</span>
+							<span className="inline-block text-purple-pure">o</span>
+							<span className="inline-block text-pink-pure">N</span>
+							<span className="inline-block text-red-pure">i</span>
+							<span className="inline-block text-orange-pure">A</span>
+							<span className="inline-block text-yellow-pure">L</span>
+							<span className="inline-block text-green-pure">s</span>
+							<span className="inline-block text-blue-pure">!</span>
+							<span className="inline-block text-indigo-pure">!</span>
+							<span className="inline-block text-purple-pure">!</span>
+						</h1>
+					</div>
+				</div>
+				<div className="px-2 mt-6 w-full sm:w-2/3 sm:mx-auto">
+					<div className="relative flex flex-col sm:flex-row justify-between bg-blue-pure text-white p-4 border-2 border-white">
+						<div className="w-full sm:w-2/3">
+							<p className="mb-2 text-xl">
+								"Mr. CEO oversaw the company at its toughest time during the
+								2008 financial crisis. He laid off thousands of employees
+								because I didn't want to talk to them myself."
+							</p>
+							<i className="text-gray-300">
+								- Goldman Sach, CFO of Goldman Sachs (bank)
+							</i>
+						</div>
+						<img src={thumbsUp} alt="thumbs up" className="w-32" />
+					</div>
+					<div className="mt-6 relative flex flex-col sm:flex-row justify-between bg-yellow-pure text-black p-4 border-2 border-white">
+						<img src={rose} alt="rose" className="w-32" />
+						<div className="w-full sm:w-2/3">
+							<p className="mb-2 text-xl">
+								"My old lady is happy. Usually he puts money in a box to take a
+								taxi. Be careful."
+							</p>
+							<i className="text-gray-700">
+								- Former Lover (quote translated from Russian)
+							</i>
+						</div>
+						<img
+							src={smile}
+							alt="smile"
+							className="h-8 absolute z-10"
+							style={{
+								right: 0,
+								top: 0
+							}}
+						/>
+					</div>
+					<div className="mt-6 relative flex flex-col sm:flex-row justify-between bg-green-pure text-white p-4 border-2 border-white">
+						<div className="w-full sm:w-2/3">
+							<p className="mb-2 text-xl">
+								"This cat knows how to make a dang hit rekkid!"
+							</p>
+							<i className="text-gray-300">- Disgraced Jazz Legend Roy Donk</i>
+						</div>
+						<img src={hot} alt="hot" className="w-32" />
+						<img
+							src={guitar}
+							alt="guitar"
+							className="h-16 absolute z-10"
+							style={{
+								right: 0,
+								top: "-2rem",
+								transform: "rotate(-25deg)"
+							}}
+						/>
+					</div>
+					<div className="mt-2 rabbit-run">
+						<div>
+							<img src={rabbit} alt="rabbit" className="h-16" />
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}
