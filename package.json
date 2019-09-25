@@ -2,7 +2,7 @@
 	"name": "ceo-business.net",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://ghartn.github.io/ceo-business.net",
+	"homepage": "https://ceoatbusiness.net",
 	"dependencies": {
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
