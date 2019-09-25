@@ -98,7 +98,7 @@ class HomePage extends Component {
 					</div>
 					<img src={world} alt="world" className="w-16 md:w-32" />
 				</div>
-				{buttonClicked ? (
+				{buttonClicked && !isMobile ? (
 					<div className="relative flex flex-col md:w-2/3 mb-6 justify-center w-auto mt-8 py-2 mx-auto rounded glow bg-yellow-pure texe-center">
 						<div className="p-4 flex justify-center overflow-x-hidden">
 							<img src={money} alt="money" className="flex-1" />
@@ -115,9 +115,7 @@ class HomePage extends Component {
 								onMouseMove={this._randomizeButtonPosition}
 								style={{ top: top, left: left }}
 							>
-								{!isMobile
-									? "CLICK HERE TO CLAIM YOUR PRIZE!"
-									: "CLAIM YOUR PRIZE ON DESKTOP COMPUTER"}
+								CLICK HERE TO CLAIM YOUR PRIZE!
 							</button>
 						</div>
 					</div>
