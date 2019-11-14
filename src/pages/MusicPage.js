@@ -15,13 +15,18 @@ const MusicPage = () => {
 				<img src={logo} alt="logo" className="h-10 sm:h-16 mx-2" />
 				<img src={soundOn} alt="sound on" className="h-4 sm:h-8" />
 			</div>
-			<div className="mt-6 flex items-center">
+			<div className="mt-6 flex items-center justify-center">
 				<img src={dancingBaby} alt="dancing baby" className="w-16 md:w-32" />
 				<div className="relative p-6 bg-blue-pure">
-					<p className="text-lg text-white text-center">
-						PLACEHOLDER TEXT FOR WHEN I CAN EMBED SOMETHING HERE. SOMEONE REMIND
-						ME TO FIX THIS BEFORE I DEPLOY TO A LIVE SITE HAHA
-					</p>
+					<iframe
+						title="ceo@business.net - bad (prod. lentra)"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/w-LSnjawbGI"
+						frameBorder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+					></iframe>
 					<img
 						src={dj}
 						alt="dj"

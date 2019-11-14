@@ -34,6 +34,7 @@ class HomePage extends Component {
 	}
 
 	_clickButton = () => {
+		window.open("https://stem.ffm.to/_bad", "_blank");
 		this.setState({
 			buttonClicked: !this.state.buttonClicked,
 			buttonPosition: {
@@ -62,7 +63,26 @@ class HomePage extends Component {
 					Welcome To The Home Page of
 					<img src={logo} alt="logo" className="inline h-10 sm:h-16 ml-2" />
 				</h1>
-
+				<div className="pt-16">
+					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
+						CEO@BUSINESS.NET - BAD
+					</BouncingText>
+					<div className="flex justify-center">
+						<iframe
+							className="mt-6"
+							title="ceo@business.net - bad (prod. lentra)"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/w-LSnjawbGI"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
+					<BouncingText className="mt-6 text-xl sm:text-3xl md:text-4xl text-blue-pure text-center text-glow">
+						OUT NOW
+					</BouncingText>
+				</div>
 				<div className="pt-12 flex items-center">
 					<img src={genie} alt="genie" className="w-16 md:w-32" />
 					<div className="flex flex-col flex-1 items-center">
@@ -120,10 +140,7 @@ class HomePage extends Component {
 						</div>
 					</div>
 				) : null}
-				<div className="pt-16">
-					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						ceo@business.net
-					</BouncingText>
+				<div className="w-2/3 mx-auto">
 					<ImageRow
 						className="mt-6 -mr-2 flex justify-center w-full overflow-x-hidden"
 						imgSrc={businessMan}
@@ -132,9 +149,6 @@ class HomePage extends Component {
 						howMany={9}
 						spacing={2}
 					/>
-					<BouncingText className="mt-6 text-xl sm:text-3xl md:text-4xl text-blue-pure text-center text-glow">
-						Incentivize Unpaid Overtime
-					</BouncingText>
 				</div>
 				<div className="px-2 mt-20 md:mx-0">
 					<div className="flex flex-col border glow">
