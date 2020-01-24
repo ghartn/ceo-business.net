@@ -19,10 +19,10 @@ const MusicPage = () => {
 				<img src={dancingBaby} alt="dancing baby" className="w-16 md:w-32" />
 				<div className="relative p-6 bg-blue-pure">
 					<iframe
-						title="ceo@business.net - ass & cheeks (feat. jungle bobby)"
+						title="ceo@business.net - buttercup"
 						width="560"
 						height="315"
-						src="https://www.youtube.com/embed/bY9nOZq8lrs"
+						src="https://www.youtube.com/embed/wMRFp9zBBwY"
 						frameBorder="0"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowFullScreen

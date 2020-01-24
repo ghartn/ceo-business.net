@@ -34,7 +34,7 @@ class HomePage extends Component {
 	}
 
 	_clickButton = () => {
-		window.open("https://fanlink.to/ass-n-cheeks", "_blank");
+		window.open("https://fanlink.to/ceo-buttercup", "_blank");
 		this.setState({
 			buttonClicked: !this.state.buttonClicked,
 			buttonPosition: {
@@ -65,15 +65,15 @@ class HomePage extends Component {
 				</h1>
 				<div className="pt-16">
 					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						CEO@BUSINESS.NET - ASS & CHEEKS
+						CEO@BUSINESS.NET - BUTTERCUP
 					</BouncingText>
 					<div className="flex justify-center">
 						<iframe
 							className="mt-6"
-							title="ceo@business.net - ass & cheeks (feat. jungle bobby)"
+							title="ceo@business.net - buttercup"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/bY9nOZq8lrs"
+							src="https://www.youtube.com/embed/wMRFp9zBBwY"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
