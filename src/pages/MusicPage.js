@@ -17,34 +17,58 @@ const MusicPage = () => {
 			</div>
 			<div className="mt-6 flex items-center justify-center">
 				<img src={dancingBaby} alt="dancing baby" className="w-16 md:w-32" />
-				<div className="relative p-6 bg-blue-pure">
-					<iframe
-						title="ceo@business.net - buttercup"
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/wMRFp9zBBwY"
-						frameBorder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowFullScreen
-					></iframe>
-					<img
-						src={dj}
-						alt="dj"
-						className="h-16 absolute z-10"
-						style={{
-							top: "-2rem",
-							left: 0
-						}}
-					/>
-					<img
-						src={dance}
-						alt="dance"
-						className="h-16 absolute z-10"
-						style={{
-							right: 0,
-							bottom: "-2rem"
-						}}
-					/>
+				<div className="flex flex-col">
+					<div className="relative p-6 mb-4 bg-blue-pure">
+						<iframe
+							title="ceo@business.net - buttercup"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/wMRFp9zBBwY"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
+					<div className="relative p-6 mb-4 bg-orange-pure">
+						<iframe
+							title="ceo@business.net - ass & cheeks"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/bY9nOZq8lrs"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
+					<div className="relative p-6 bg-purple-pure">
+						<iframe
+							title="ceo@business.net - bad"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/w-LSnjawbGI"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+						<img
+							src={dj}
+							alt="dj"
+							className="h-16 absolute z-10"
+							style={{
+								top: "-2rem",
+								left: 0
+							}}
+						/>
+						<img
+							src={dance}
+							alt="dance"
+							className="h-16 absolute z-10"
+							style={{
+								right: 0,
+								bottom: "-2rem"
+							}}
+						/>
+					</div>
 				</div>
 				<img src={robots} alt="dancing robots" className="w-16 md:w-32" />
 			</div>
