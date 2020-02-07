@@ -34,7 +34,7 @@ class HomePage extends Component {
 	}
 
 	_clickButton = () => {
-		window.open("https://fanlink.to/ceo-buttercup", "_blank");
+		window.open("https://fanlink.to/blahblah", "_blank");
 		this.setState({
 			buttonClicked: !this.state.buttonClicked,
 			buttonPosition: {
@@ -65,15 +65,15 @@ class HomePage extends Component {
 				</h1>
 				<div className="pt-16">
 					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						CEO@BUSINESS.NET - BUTTERCUP
+						CEO@BUSINESS.NET - BLAH BLAH BLAH
 					</BouncingText>
 					<div className="flex justify-center">
 						<iframe
 							className="mt-6"
-							title="ceo@business.net - buttercup"
+							title="ceo@business.net - blah blah blah"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/wMRFp9zBBwY"
+							src="https://www.youtube.com/embed/nI7fUIJNCQM"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen

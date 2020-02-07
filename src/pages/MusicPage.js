@@ -18,6 +18,17 @@ const MusicPage = () => {
 			<div className="mt-6 flex items-center justify-center">
 				<img src={dancingBaby} alt="dancing baby" className="w-16 md:w-32" />
 				<div className="flex flex-col">
+					<div className="relative p-6 mb-4 bg-red-pure">
+						<iframe
+							title="ceo@business.net - blah blah blah"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/nI7fUIJNCQM"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
 					<div className="relative p-6 mb-4 bg-blue-pure">
 						<iframe
 							title="ceo@business.net - buttercup"
