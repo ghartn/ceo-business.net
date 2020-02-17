@@ -21,6 +21,7 @@ import rose from "../img/rose.gif";
 import guitar from "../img/guitar.gif";
 import smile from "../img/smile.gif";
 import rabbit from "../img/rabbit.gif";
+import cover from "../img/cover.gif";
 class HomePage extends Component {
 	constructor() {
 		super();
@@ -34,7 +35,7 @@ class HomePage extends Component {
 	}
 
 	_clickButton = () => {
-		window.open("https://fanlink.to/blahblah", "_blank");
+		window.open("https://fanlink.to/incentivize", "_blank");
 		this.setState({
 			buttonClicked: !this.state.buttonClicked,
 			buttonPosition: {
@@ -65,22 +66,19 @@ class HomePage extends Component {
 				</h1>
 				<div className="pt-16">
 					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						CEO@BUSINESS.NET - BLAH BLAH BLAH
+						CEO@BUSINESS.NET - INCENTIVIZE UNPAID OVERTIME
 					</BouncingText>
 					<div className="flex justify-center">
-						<iframe
-							className="mt-6"
-							title="ceo@business.net - blah blah blah"
-							width="560"
-							height="315"
-							src="https://www.youtube.com/embed/nI7fUIJNCQM"
-							frameBorder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowFullScreen
-						></iframe>
+						<a href="https://fanlink.to/incentivize">
+							<img
+								className="mt-6"
+								alt="ceo@business.net - incentivize unpaid overtime"
+								src={cover}
+							/>
+						</a>
 					</div>
 					<BouncingText className="mt-6 text-xl sm:text-3xl md:text-4xl text-blue-pure text-center text-glow">
-						OUT NOW
+						ALBUM OUT NOW
 					</BouncingText>
 				</div>
 				<div className="pt-12 flex items-center">
