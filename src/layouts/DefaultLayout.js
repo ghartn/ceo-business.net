@@ -13,6 +13,7 @@ const DefaultLayout = ({ component: Component, path, ...rest }) => {
 				<div
 					className="layout relative"
 					style={{ backgroundImage: `url(${space})` }}
+					//style={{backgroundColor: "#008080"}}
 				>
 					<div className="container flex flex-col min-h-screen leading-normal ">
 						<TopNavigation path={path} />

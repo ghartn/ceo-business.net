@@ -30,17 +30,18 @@ const TopNavigation = ({ path }) => {
 				>
 					About
 				</Link>
-				<a
+				{/* <a
+				
 					href="https://shop.ceoatbusiness.net/"
 					className={`mx-2 p-3 relative border border-transparent text-xl bg-green-pure text-white underline hover:border-white ${
 						isActive(path, "/tour") ? "glow" : ""
 					}`}
 				>
 					Shop
-				</a>
+				</a> */}
 				<Link
 					to="/links"
-					className={`mx-2 relative border border-transparent text-xl bg-teal-pure text-white underline hover:border-white ${
+					className={`mx-2 relative border border-transparent text-xl bg-green-pure text-white underline hover:border-white ${
 						isActive(path, "/links") ? "glow" : ""
 					}`}
 				>
