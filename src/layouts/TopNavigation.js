@@ -33,6 +33,8 @@ const TopNavigation = ({ path }) => {
 				<a
 				
 					href="https://shop.ceoatbusiness.net/"
+					target="_blank"
+					rel="noopener noreferrer"
 					className={`mx-2 p-3 relative border border-transparent text-xl bg-green-pure text-white underline hover:border-white ${
 						isActive(path, "/tour") ? "glow" : ""
 					}`}

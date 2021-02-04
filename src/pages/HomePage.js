@@ -66,19 +66,22 @@ class HomePage extends Component {
 				</h1>
 				<div className="pt-16">
 					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						CEO@BUSINESS.NET - INCENTIVIZE UNPAID OVERTIME
+						CEO@BUSINESS.NET - MEXICO
 					</BouncingText>
 					<div className="flex justify-center">
-						<a href="https://fanlink.to/incentivize">
-							<img
-								className="mt-6"
-								alt="ceo@business.net - incentivize unpaid overtime"
-								src={cover}
-							/>
-						</a>
+						<iframe
+							className="mt-6"
+							title="ceo@business.net - mexico (feat. jungle bobby)"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/qvkkIqkErbU"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
 					</div>
 					<BouncingText className="mt-6 text-xl sm:text-3xl md:text-4xl text-blue-pure text-center text-glow">
-						ALBUM OUT NOW
+						NEW SONG OUT NOW
 					</BouncingText>
 				</div>
 				<div className="pt-12 flex items-center">
