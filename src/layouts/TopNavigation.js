@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import flame from "../img/flame.gif";
+import flame from "../img/flamepng.gif";
 
 const TopNavigation = ({ path }) => {
 	return (
@@ -43,7 +43,7 @@ const TopNavigation = ({ path }) => {
 				</a>
 				<Link
 					to="/links"
-					className={`mx-2 relative border border-transparent text-xl bg-green-pure text-white underline hover:border-white ${
+					className={`mx-2 relative border border-transparent text-xl bg-purple-pure text-white underline hover:border-white ${
 						isActive(path, "/links") ? "glow" : ""
 					}`}
 				>
