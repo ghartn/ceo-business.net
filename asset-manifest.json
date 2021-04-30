@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e7d88d06.chunk.css",
-    "main.js": "/static/js/main.ba599443.chunk.js",
-    "main.js.map": "/static/js/main.ba599443.chunk.js.map",
+    "main.js": "/static/js/main.1f072d88.chunk.js",
+    "main.js.map": "/static/js/main.1f072d88.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.57cd0f27.js",
     "runtime-main.js.map": "/static/js/runtime-main.57cd0f27.js.map",
-    "static/js/2.caec6976.chunk.js": "/static/js/2.caec6976.chunk.js",
-    "static/js/2.caec6976.chunk.js.map": "/static/js/2.caec6976.chunk.js.map",
+    "static/js/2.f4cce818.chunk.js": "/static/js/2.f4cce818.chunk.js",
+    "static/js/2.f4cce818.chunk.js.map": "/static/js/2.f4cce818.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.21d2dcba65f139771b8c92439deb4389.js": "/precache-manifest.21d2dcba65f139771b8c92439deb4389.js",
+    "precache-manifest.e7e41b4423005153b4b37a435d0dce2d.js": "/precache-manifest.e7e41b4423005153b4b37a435d0dce2d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e7d88d06.chunk.css.map": "/static/css/main.e7d88d06.chunk.css.map",
-    "static/js/2.caec6976.chunk.js.LICENSE.txt": "/static/js/2.caec6976.chunk.js.LICENSE.txt",
+    "static/js/2.f4cce818.chunk.js.LICENSE.txt": "/static/js/2.f4cce818.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.5026906f.jpg",
     "static/media/10.jpg": "/static/media/10.ff4a67e4.jpg",
     "static/media/11.gif": "/static/media/11.f105fc3d.gif",
@@ -36,12 +36,11 @@
     "static/media/business-man-running.gif": "/static/media/business-man-running.596be56a.gif",
     "static/media/celibacy.gif": "/static/media/celibacy.2dbb066b.gif",
     "static/media/chill.gif": "/static/media/chill.7d1aad1e.gif",
-    "static/media/cover.gif": "/static/media/cover.eaab5ad1.gif",
     "static/media/dancing-baby.gif": "/static/media/dancing-baby.16b5b1b4.gif",
     "static/media/dj.gif": "/static/media/dj.268c3ed9.gif",
     "static/media/error-light.gif": "/static/media/error-light.c8ba1dbf.gif",
     "static/media/fireworks.gif": "/static/media/fireworks.42337184.gif",
-    "static/media/flame.gif": "/static/media/flame.36b6c8fa.gif",
+    "static/media/flamepng.gif": "/static/media/flamepng.60f67def.gif",
     "static/media/genie.gif": "/static/media/genie.b338fb55.gif",
     "static/media/guitar.gif": "/static/media/guitar.c2238c49.gif",
     "static/media/homer.gif": "/static/media/homer.39bceec9.gif",
@@ -64,8 +63,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.57cd0f27.js",
-    "static/js/2.caec6976.chunk.js",
+    "static/js/2.f4cce818.chunk.js",
     "static/css/main.e7d88d06.chunk.css",
-    "static/js/main.ba599443.chunk.js"
+    "static/js/main.1f072d88.chunk.js"
   ]
 }
