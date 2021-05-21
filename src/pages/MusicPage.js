@@ -20,6 +20,17 @@ const MusicPage = () => {
 				<div className="flex flex-col">
 					<div className="relative p-6 mb-4 bg-red-pure">
 					<iframe
+							title="ceo@business.net - cool dad president"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/a68dSPyp-Bs"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
+					<div className="relative p-6 mb-4 bg-blue-pure">
+					<iframe
 							title="ceo@business.net - buttercup 2"
 							width="560"
 							height="315"
@@ -29,7 +40,7 @@ const MusicPage = () => {
 							allowFullScreen
 						></iframe>
 					</div>
-					<div className="relative p-6 mb-4 bg-blue-pure">
+					<div className="relative p-6 mb-4 bg-orange-pure">
 					<iframe
 							title="ceo@business.net - mexico"
 							width="560"
@@ -40,23 +51,12 @@ const MusicPage = () => {
 							allowFullScreen
 						></iframe>
 					</div>
-					<div className="relative p-6 mb-4 bg-orange-pure">
+					<div className="relative p-6 bg-purple-pure">
 					<iframe
 							title="ceo@business.net - buttercup"
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/wMRFp9zBBwY"
-							frameBorder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowFullScreen
-						></iframe>
-					</div>
-					<div className="relative p-6 bg-purple-pure">
-					<iframe
-							title="ceo@business.net - ass & cheeks"
-							width="560"
-							height="315"
-							src="https://www.youtube.com/embed/bY9nOZq8lrs"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
