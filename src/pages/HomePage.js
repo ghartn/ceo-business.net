@@ -67,15 +67,15 @@ class HomePage extends Component {
 				</h1>
 				<div className="pt-16">
 					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						CEO@BUSINESS.NET - COOL DAD PRESIDENT
+						CEO@BUSINESS.NET - 2 ASS 2 CHEEKS
 					</BouncingText>
 					<div className="flex justify-center">
 						<iframe
 							className="mt-6"
-							title="ceo@business.net - cool dad president"
+							title="ceo@business.net - 2 ass 2 cheeks"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/a68dSPyp-Bs"
+							src="https://www.youtube.com/embed/1DbxX4KYI04"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen

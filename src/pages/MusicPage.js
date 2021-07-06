@@ -20,10 +20,10 @@ const MusicPage = () => {
 				<div className="flex flex-col">
 					<div className="relative p-6 mb-4 bg-red-pure">
 					<iframe
-							title="ceo@business.net - cool dad president"
+							title="ceo@business.net - 2 ass 2 cheeks"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/a68dSPyp-Bs"
+							src="https://www.youtube.com/embed/1DbxX4KYI04"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
