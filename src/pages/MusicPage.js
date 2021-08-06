@@ -19,18 +19,18 @@ const MusicPage = () => {
 				<img src={dancingBaby} alt="dancing baby" className="w-16 md:w-32" />
 				<div className="flex flex-col">
 					<div className="relative p-6 mb-4 bg-red-pure">
-					<iframe
-							title="ceo@business.net - 2 ass 2 cheeks"
+						<iframe
+							title="ceo@business.net - blah blah blah blah"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/1DbxX4KYI04"
+							src="https://www.youtube.com/embed/jtoTPIu8h_Q"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
 						></iframe>
 					</div>
 					<div className="relative p-6 mb-4 bg-blue-pure">
-					<iframe
+						<iframe
 							title="ceo@business.net - buttercup 2"
 							width="560"
 							height="315"
@@ -41,7 +41,7 @@ const MusicPage = () => {
 						></iframe>
 					</div>
 					<div className="relative p-6 mb-4 bg-orange-pure">
-					<iframe
+						<iframe
 							title="ceo@business.net - mexico"
 							width="560"
 							height="315"
@@ -52,7 +52,7 @@ const MusicPage = () => {
 						></iframe>
 					</div>
 					<div className="relative p-6 bg-purple-pure">
-					<iframe
+						<iframe
 							title="ceo@business.net - buttercup"
 							width="560"
 							height="315"
