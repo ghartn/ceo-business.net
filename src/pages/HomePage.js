@@ -72,10 +72,10 @@ class HomePage extends Component {
 					<div className="flex justify-center">
 						<iframe
 							className="mt-6"
-							title="ceo@business.net - blah blah blah blah"
+							title="ceo@business.net - take a trip"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/jtoTPIu8h_Q"
+							src="https://www.youtube.com/embed/MWXdpxgbndw"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
