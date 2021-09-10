@@ -36,7 +36,7 @@ class HomePage extends Component {
 	}
 
 	_clickButton = () => {
-		window.open("https://get.ceoatbusiness.net/blah", "_blank");
+		window.open("https://get.ceoatbusiness.net/iuo2", "_blank");
 		this.setState({
 			buttonClicked: !this.state.buttonClicked,
 			buttonPosition: {
@@ -67,7 +67,7 @@ class HomePage extends Component {
 				</h1>
 				<div className="pt-16">
 					<BouncingText className="text-xl sm:text-3xl md:text-4xl text-red-pure text-center text-glow">
-						CEO@BUSINESS.NET - BLAH BLAH BLAH BLAH
+						CEO@BUSINESS.NET - INCENTIVIZE UNPAID OVERTIME 2
 					</BouncingText>
 					<div className="flex justify-center">
 						<iframe
@@ -82,7 +82,7 @@ class HomePage extends Component {
 						></iframe>
 					</div>
 					<BouncingText className="mt-6 text-xl sm:text-3xl md:text-4xl text-blue-pure text-center text-glow">
-						NEW SONG OUT NOW
+						NEW ALBUM OUT NOW
 					</BouncingText>
 				</div>
 				<div className="pt-12 flex items-center">
