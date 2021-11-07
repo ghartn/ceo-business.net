@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import TopNavigation from "./TopNavigation";
 import Footer from "./Footer";
-import space from "../img/space.gif";
+//import space from "../img/space.gif";
 
 const DefaultLayout = ({ component: Component, path, ...rest }) => {
 	return (

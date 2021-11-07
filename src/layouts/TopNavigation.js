@@ -49,6 +49,17 @@ const TopNavigation = ({ path }) => {
 				>
 					Links
 				</Link>
+				<a
+				
+				href="https://bbnomula.com/tour/"
+				target="_blank"
+				rel="noopener noreferrer"
+				className={`mx-2 p-3 relative border border-transparent text-xl bg-teal-pure text-white underline hover:border-white ${
+					isActive(path, "/tour") ? "glow" : ""
+				}`}
+			>
+				Tour
+			</a>
 				<Link
 					to="/contact"
 					className={`mx-2 p-4 relative border border-transparent text-xl bg-blue-pure text-white underline hover:border-white ${
