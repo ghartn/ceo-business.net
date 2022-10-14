@@ -49,7 +49,7 @@ const TopNavigation = ({ path }) => {
 				>
 					Links
 				</Link>
-				<a
+				{/* <a
 				
 				href="https://bbnomula.com/tour/"
 				target="_blank"
@@ -59,7 +59,7 @@ const TopNavigation = ({ path }) => {
 				}`}
 			>
 				Tour
-			</a>
+			</a> */}
 				<Link
 					to="/contact"
 					className={`mx-2 p-4 relative border border-transparent text-xl bg-blue-pure text-white underline hover:border-white ${
