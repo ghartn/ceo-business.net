@@ -12,6 +12,7 @@ import TourPage from "./pages/TourPage";
 import LinksPage from "./pages/LinksPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ThankYouPage from "./pages/ThankYouPage";
 
 const App = () => {
 	return (
@@ -20,6 +21,7 @@ const App = () => {
 				<DefaultLayout path="/" exact component={HomePage} />
 				<DefaultLayout path="/music" component={MusicPage} />
 				<DefaultLayout path="/about" component={AboutPage} />
+				<DefaultLayout path="/thanks" component={ThankYouPage} />
 				<DefaultLayout path="/tour" component={TourPage} />
 				<DefaultLayout path="/links" component={LinksPage} />
 				<DefaultLayout path="/contact" component={ContactPage} />
