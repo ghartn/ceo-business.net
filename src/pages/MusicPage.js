@@ -20,6 +20,17 @@ const MusicPage = () => {
 				<div className="flex flex-col">
 					<div className="relative p-6 mb-4 bg-red-pure">
 						<iframe
+							title="ceo@business.net - wannabe"
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/z2mNX-CpQe8"
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
+					<div className="relative p-6 mb-4 bg-blue-pure">
+						<iframe
 							title="ceo@business.net - it doesn't get any better than this"
 							width="560"
 							height="315"
@@ -29,23 +40,12 @@ const MusicPage = () => {
 							allowFullScreen
 						></iframe>
 					</div>
-					<div className="relative p-6 mb-4 bg-blue-pure">
+					<div className="relative p-6 mb-4 bg-orange-pure">
 						<iframe
 							title="ceo@business.net - cry about it"
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/PDplREoE5n4"
-							frameBorder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowFullScreen
-						></iframe>
-					</div>
-					<div className="relative p-6 mb-4 bg-orange-pure">
-						<iframe
-							title="ceo@business.net - circus"
-							width="560"
-							height="315"
-							src="https://www.youtube.com/embed/em2uo0IlHn4"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
