@@ -20,10 +20,10 @@ const MusicPage = () => {
 				<div className="flex flex-col">
 					<div className="relative p-6 mb-4 bg-red-pure">
 						<iframe
-							title="ceo@business.net - wannabe"
+							title="ceo@business.net - psycho drama"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/z2mNX-CpQe8"
+							src="https://www.youtube.com/embed/iPtcDNypsw0"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
@@ -31,10 +31,10 @@ const MusicPage = () => {
 					</div>
 					<div className="relative p-6 mb-4 bg-blue-pure">
 						<iframe
-							title="ceo@business.net - it doesn't get any better than this"
+							title="ceo@business.net - wannabe"
 							width="560"
 							height="315"
-							src="https://www.youtube.com/embed/EHnYtQwT0Sk"
+							src="https://www.youtube.com/embed/z2mNX-CpQe8"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
